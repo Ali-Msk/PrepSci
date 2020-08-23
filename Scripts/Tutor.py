@@ -9,7 +9,10 @@ class Tutor():
     comments  = []
     city = ""
     location = []
-def __init__(self, name):
+    subjects = []
+    maxGradeToTeach = 0
+    minGradeToTeach = 0
+    def __init__(self, name):
         self.name = name
 
     def addRating(self, rating):

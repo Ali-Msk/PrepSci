@@ -8,7 +8,9 @@ class Student():
     comments = []
     comments = []
     city = ""
-def __init__(self, name):
+    subjects = []
+
+    def __init__(self, name):
         self.name = name
 
     def addRating(self, rating):
