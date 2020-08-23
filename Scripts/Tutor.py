@@ -12,6 +12,8 @@ class Tutor():
     subjects = []
     maxGradeToTeach = 0
     minGradeToTeach = 0
+    sessionsTaught = 0
+    experienceTeaching = 0
     def __init__(self, name):
         self.name = name
 
